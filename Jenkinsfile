@@ -19,6 +19,16 @@ pipeline {
 				}
 			}
 
+		}post{
+			always{
+				echo 'I am too Good !!!!'
+			}
+			success{
+				echo 'I run when success !!!!'
+			}
+			failure{
+				echo 'I run when failed !!!!'
+			}
 		}
 		
 		
