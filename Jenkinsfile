@@ -30,7 +30,7 @@ pipeline {
 			failure{
 				echo 'I run when failed !!!!'
 			}
-			change{
+			changed{
 				echo 'I run when changed !!!!'
 			}
 
